@@ -1,0 +1,200 @@
+/* 
+    AUTHOR: Dieter Randolph
+*/
+
+/* ------------------------------------------ */
+/* RESETS, BASIC PAGE SETUP, BASIC TYPOGRAPHY */
+/* ------------------------------------------ */
+* { margin: 0; padding: 0; }
+html {  }
+body { 
+	color: #d0cece; 
+	font: 14px arial, helvetica, garuda, sans-serif;
+	text-align: center;
+	background-color: #123440;
+}
+p {  }
+a { outline: none; }
+a img { border: none; }
+a:link, a:visited {
+  text-decoration: none;
+  color: #aed9e9;
+  font-weight: bold;
+}
+a:hover {
+  color: #fff;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: georgia, utopia, palatino, "Palatino Linotype", serif;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 27px;
+  color: #d1b468;
+  font-weight: bold;
+}
+h2, h3 {
+  font-size: 26px;
+  font-weight: normal;
+  color: #f6eb92;
+}
+h3 {
+  font-weight: bold;
+}
+/* END RESET */
+
+/* ------------------------------------------ */
+/* TOOLBOX CSS */
+/* ------------------------------------------ */
+.floatleft { float: left; }
+.floatright { float: right; }
+.clear { clear: both; }
+/* END TOOLBOX */
+
+/* ------------------------------------------ */
+/* PAGE STRUCTURE */
+/* ------------------------------------------ */
+#container {
+	margin: 0 auto;
+	width: 1024px;
+	text-align: left;
+	background: #194758 url(../images/dot_field.png) repeat-x 0 126px;
+}
+#branding {
+  padding: 36px 0 0 25px;
+  border-right: 25px solid #194758;
+  background: transparent url(../images/arrow_top.png) no-repeat 424px 37px;
+}
+#branding ul {
+  list-style-type: none;
+  padding: 37px 0 0 0;
+}
+#branding ul li {
+  display: block;
+  float: left;
+  padding: 10px 15px 0 15px;
+}
+#branding ul li.no_top {
+  padding-top: 0;
+}
+#branding ul li.first {
+  padding-left: 0;
+}
+#branding ul li.last {
+  float: none;
+  padding-right: 0;
+}
+#branding ul li p {
+  width: 325px;
+  font-size: 12px;
+  line-height: 1.2em;
+}
+#content {
+  padding: 108px 0 0 25px;
+  border-right: 25px solid #194758;
+  clear: both;
+  background: transparent url(../images/arrow_stripe.png) repeat-y 855px 0;
+}
+#content h1 {
+  float: left;
+  display: block;
+  width: 245px;
+}
+#content ul {
+  list-style-type: none;
+}
+#content ul.even {
+  padding: 0 0 0 270px;
+  margin: 60px 0 60px -25px;
+  background: transparent url(../images/arrow_middle.png) no-repeat 0 50px;
+}
+#content ul li {
+  display: block;
+  float: left;
+  width: 230px;
+  padding: 0 18px 0 0;
+}
+#content ul li.last {
+  padding: 0;
+}
+#content ul li img {
+  margin: 1em 0;
+}
+#content ul li p {
+  line-height: 1.3em;
+}
+#content dl {
+  margin: 0 250px 0 245px;
+  line-height: 37px;
+  font-size: 12px;
+  color: #faeb8d;
+  border-top: 1px dotted #faeb8d;
+}
+#content dt {
+  float: left;
+  width: 225px;
+  text-align: right;
+  padding-right: 20px;
+  border-bottom: 1px dotted #faeb8d;
+}
+#content dd {
+  font-weight: bold;
+  border-bottom: 1px dotted #faeb8d;
+}
+#content #signup_bottom {
+  background: transparent url(../images/dot_field.png) repeat-x 0 0;
+  margin: 20px 0 0 -25px;
+}
+#content #signup_bottom div.inner {
+  padding: 81px 0;
+  background: transparent url(../images/arrow_bottom.png) no-repeat 516px 0;
+}
+#sponsors {
+  clear: both;
+  margin-top: -30px;
+}
+#sponsors h1 {
+  padding: 0 0 0 25px;
+  font-size: 18px;
+  line-height: 30px;
+}
+#sponsors ul {
+  list-style-type: none;
+  padding: 0 25px 0 0;
+  float: right;
+}
+#sponsors ul li {
+  display: inline;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: georgia, utopia, palatino, "Palatino Linotype", serif;
+  text-transform: uppercase;
+  color: #d1b468;
+  line-height: 30px;
+  padding: 0 2px;
+}
+#sponsors ul li.first {
+  padding: 0 5px 2px 0;
+}
+#sponsors ul li.last {
+  padding-right: 0;
+}
+#sponsors ul.blocks {
+  clear: both;
+  float: none;
+  width: auto;
+  background-color: #315766;
+  padding: 0 141px;
+}
+#sponsors ul.blocks li {
+  display: block;
+  float: left;
+  padding: 0 3px 0 0; 
+  background: transparent url(../images/block_seperator.png) no-repeat 100% 0;
+}
+#sponsors ul.blocks li.last {
+  float: none;
+  background: none;
+  padding: 0;
+}
+/* END STRUCTURE */
