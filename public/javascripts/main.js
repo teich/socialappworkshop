@@ -8,6 +8,7 @@ var addEvent = function(obj, type, fn) { //http://www.ilfilosofo.com/blog/2008/0
 }
 addEvent(window, 'load', preProcessPage);
 
+
 function preProcessPage() {
 	if (!document.getElementsByTagName || (!document.getElementById || (!document.createElement || !document.createTextNode))) return false;
 	processPage();
